@@ -202,7 +202,10 @@ a:focus-visible,
 .profile-flip {
   float: right;
   width: 260px;
-  margin: -52px 0 24px 36px;
+  // Pull the photo up past .post-header so its top sits level with the "Jaewan Park" title:
+  // title line box (1.15 x its clamped font-size) + 12px title margin + 28px desc + 38px header margin,
+  // less ~18px so the photo aligns with the cap height of the name rather than the line box.
+  margin: calc(-1.15 * clamp(2.6rem, 6vw, 4rem) - 60px) 0 24px 36px;
 
   figcaption {
     margin-top: 12px;
