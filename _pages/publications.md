@@ -30,7 +30,7 @@ nav_order: 2
           <span class="kx-venue">[ Communications Engineering ]</span>
           <a href="https://doi.org/10.1038/s44172-026-00714-4">Network architecture follows coupling in multiphysics systems: single vs. multiple branches in DeepONet and S-DeepONet</a>
         </p>
-        <p class="kx-pub-authors"><strong>Jaewan Park</strong>, Kazuma Kobayashi, Qibang Liu, Diab Abueidda, Seid Koric, Syed Bahauddin Alam</p>
+        <p class="kx-pub-authors"><strong>Jaewan Park<sup>*</sup></strong>, Kazuma Kobayashi<sup>*</sup>, Qibang Liu, Diab Abueidda, Seid Koric, Syed Bahauddin Alam</p>
       </li>
       <li class="kx-pub">
         <p class="kx-pub-title">
@@ -77,7 +77,7 @@ nav_order: 2
           <span class="kx-venue">[ Additive Manufacturing ]</span>
           <a href="https://doi.org/10.1016/j.addma.2024.104266">Advanced deep operator networks to predict multiphysics solution fields in materials processing and additive manufacturing</a>
         </p>
-        <p class="kx-pub-authors">Shashank Kushwaha, <strong>Jaewan Park</strong>, Seid Koric, Junyan He, Iwona Jasiuk, Diab Abueidda</p>
+        <p class="kx-pub-authors">Shashank Kushwaha<sup>*</sup>, <strong>Jaewan Park<sup>*</sup></strong>, Seid Koric, Junyan He, Iwona Jasiuk, Diab Abueidda</p>
       </li>
       <li class="kx-pub">
         <p class="kx-pub-title">
@@ -101,4 +101,5 @@ nav_order: 2
       </li>
     </ol>
   </section>
+  <p class="kx-pub-note"><sup>*</sup> Equal contribution.</p>
 </div>

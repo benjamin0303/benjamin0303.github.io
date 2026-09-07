@@ -232,6 +232,16 @@ body:has(.kx-shell) {
     color: var(--global-text-color);
     font-weight: 500;
   }
+
+  sup {
+    line-height: 0;
+  }
+}
+
+.kx-pub-note {
+  margin: 26px 0 0;
+  color: var(--global-text-color-light);
+  font-size: 0.82rem;
 }
 
 .kx-publications-intro {
