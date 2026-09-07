@@ -21,7 +21,7 @@ latest_posts:
       <img class="profile-back" src="{{ '/assets/photos/pumpkin.jpeg' | relative_url }}" alt="A glowing pumpkin carved with a smiling ghost" width="2381" height="2031" aria-hidden="true">
     </span>
   </button>
-  <figcaption id="profile-flip-hint">🎃Click or tap to see the carved pumpkin🎃</figcaption>
+  <figcaption id="profile-flip-hint">Click or tap to see 🎃</figcaption>
 </figure>
 
 <div class="academic-intro" markdown="1">
