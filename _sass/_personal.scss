@@ -287,6 +287,19 @@ a:focus-visible,
   .kx-contacts {
     gap: 10px 16px;
   }
+
+  .kx-flip-links {
+    gap: 4px;
+
+    a {
+      font-size: 0.66rem;
+
+      i {
+        width: 0.88rem;
+        font-size: 0.75rem;
+      }
+    }
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {
