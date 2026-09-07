@@ -27,12 +27,12 @@ latest_posts:
 
 <article class="kx-about">
   <header class="kx-hero">
-    <p class="kx-kicker">Hello and Welcome 🖐️ I am</p>
+    <p class="kx-kicker">Hello and Welcome 🖐️ I am Jaewan,</p>
     <p class="kx-subtitle">PhD candidate at the University of Illinois Urbana-Champaign, fortunate to be advised by 
       <a href="https://sbahauddin.tech/" target="_blank" rel="noopener noreferrer">Prof. Syed Bahauddin Alam</a>, 
-      Prof. Iwona Jasiuk, 
-      and 
-      Prof. Seid Koric.
+      <a href="https://bioengineering.illinois.edu/people/ijasiuk" target="_blank" rel="noopener noreferrer">Prof. Iwona Jasiuk, 
+      <a href="https://www.ncsa.illinois.edu/directory/profile/koric/" target="_blank" rel="noopener noreferrer">Prof. Seid Koric,
+      and affiliated with National Center for Supercomputing Applications.
     </p>
   </header>
 
