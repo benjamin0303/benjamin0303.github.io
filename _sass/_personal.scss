@@ -213,8 +213,24 @@ a:focus-visible,
 }
 
 .kx-flip-links {
+  width: 100%;
   margin-top: 18px;
-  justify-content: center;
+  gap: 6px;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+
+  a {
+    font-size: 0.7rem;
+    white-space: nowrap;
+    gap: 6px;
+
+    i {
+      width: 0.95rem;
+      font-size: 0.84rem;
+      margin-top: 0;
+      justify-content: center;
+    }
+  }
 }
 
 .kx-profile {
