@@ -17,8 +17,8 @@ latest_posts:
 <figure class="profile-flip">
   <button class="profile-flip-button" type="button" aria-label="Show pumpkin photo" aria-pressed="false" aria-describedby="profile-flip-hint">
     <span class="profile-flip-inner">
-      <img class="profile-front" src="{{ '/assets/photos/jaewan.jpeg' | relative_url }}" alt="Jaewan Park carving a pumpkin" width="2292" height="2511" fetchpriority="high">
-      <img class="profile-back" src="{{ '/assets/photos/pumpkin.jpeg' | relative_url }}" alt="A glowing pumpkin carved with a smiling ghost" width="2381" height="2031" aria-hidden="true">
+      <img class="profile-front" src="{{ '/assets/photos/jaewan.jpeg' | relative_url }}" alt="Jaewan Park carving a pumpkin" width="220" height="220" fetchpriority="high">
+      <img class="profile-back" src="{{ '/assets/photos/pumpkin.jpeg' | relative_url }}" alt="A glowing pumpkin carved with a smiling ghost" width="220" height="220" aria-hidden="true" hidden>
     </span>
   </button>
   <figcaption id="profile-flip-hint">Click or tap the photo to flip</figcaption>
@@ -41,6 +41,7 @@ My experience spans domain-specific foundation models, generative models, and ne
   <a href="https://scholar.google.com/citations?user={{ site.data.socials.scholar_userid }}"><i class="ai ai-google-scholar" aria-hidden="true"></i> Google Scholar</a>
   <a href="https://github.com/{{ site.data.socials.github_username }}"><i class="fa-brands fa-github" aria-hidden="true"></i> GitHub</a>
   <a href="https://www.linkedin.com/in/{{ site.data.socials.linkedin_username }}"><i class="fa-brands fa-linkedin" aria-hidden="true"></i> LinkedIn</a>
+  <a href="{{ site.data.socials.cv_pdf | relative_url }}" target="_blank" rel="noopener noreferrer" aria-label="CV (PDF, opens in a new tab)"><i class="fa-solid fa-file-pdf" aria-hidden="true"></i> CV</a>
 </nav>
 
 <section class="research-areas" aria-labelledby="research-heading">
@@ -52,4 +53,4 @@ My experience spans domain-specific foundation models, generative models, and ne
   </ul>
 </section>
 
-<script src="{{ '/assets/js/profile-flip.js' | relative_url }}" defer></script>
+<script src="{{ '/assets/js/profile-flip.js' | relative_url | bust_file_cache }}" defer></script>

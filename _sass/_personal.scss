@@ -136,7 +136,7 @@ a:focus-visible,
 
 .profile-flip {
   float: right;
-  width: 260px;
+  width: 220px;
   margin: 0 0 28px 36px;
 
   figcaption {
@@ -190,7 +190,7 @@ a:focus-visible,
 @media (max-width: 767px) {
   .profile-flip {
     float: none;
-    width: min(260px, 100%);
+    width: min(200px, 100%);
     margin: 0 auto 32px;
   }
 }
