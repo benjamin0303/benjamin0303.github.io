@@ -44,7 +44,7 @@ latest_posts:
   </header>
 
   <p class="kx-bio">
-    I am interested in building general purpose AI in mechanics (solid and fluid), energy systems, and healthcare.
+    I am interested in building general purpose AI in (solid, fluid, multiphysics) and energy systems.
     Questions I want to answer are: 
   </p>
 
