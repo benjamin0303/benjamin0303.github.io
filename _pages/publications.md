@@ -33,6 +33,13 @@ nav_order: 2
     <ol class="kx-pubs">
       <li class="kx-pub">
         <p class="kx-pub-title">
+          <span class="kx-venue">[ Engineering Applications of Artificial Intelligence ]</span>
+          <a href="https://doi.org/10.1016/j.engappai.2026.114368">Nonlinear inverse design of mechanical multi-material metamaterials enabled by video denoising diffusion and structure identifier</a>
+        </p>
+        <p class="kx-pub-authors"><strong>Jaewan Park</strong>, Shashank Kushwaha, Junyan He, Seid Koric, Qibang Liu, Iwona Jasiuk, Diab Abueidda</p>
+      </li>
+      <li class="kx-pub">
+        <p class="kx-pub-title">
           <span class="kx-venue">[ arXiv ]</span>
           <a href="https://arxiv.org/abs/2507.06133">Bridging Sequential Deep Operator Network and Video Diffusion: Residual Refinement of Spatio-Temporal PDE Solutions</a>
         </p>
@@ -44,13 +51,6 @@ nav_order: 2
   <section class="kx-section">
     <h2>2024</h2>
     <ol class="kx-pubs">
-      <li class="kx-pub">
-        <p class="kx-pub-title">
-          <span class="kx-venue">[ arXiv ]</span>
-          <a href="https://arxiv.org/abs/2409.13908">Nonlinear Inverse Design of Mechanical Multi-Material Metamaterials Enabled by Video Denoising Diffusion and Structure Identifier</a>
-        </p>
-        <p class="kx-pub-authors"><strong>Jaewan Park</strong>, Shashank Kushwaha, Junyan He, Seid Koric, Qibang Liu, Iwona Jasiuk, Diab Abueidda</p>
-      </li>
       <li class="kx-pub">
         <p class="kx-pub-title">
           <span class="kx-venue">[ Acta Mechanica ]</span>
