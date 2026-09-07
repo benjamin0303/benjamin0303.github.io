@@ -27,8 +27,8 @@ latest_posts:
 
 <article class="kx-about">
   <header class="kx-hero">
-    <p class="kx-kicker">Hi! I am</p>
-    <p class="kx-subtitle">PhD candidate at the University of Illinois Urbana-Champaign, working on scientific machine learning.</p>
+    <p class="kx-kicker">Hello and Welcome 🖐️ I am</p>
+    <p class="kx-subtitle">PhD candidate at the University of Illinois Urbana-Champaign, fortunate to be advised by Prof. Syed Bahauddin Alam, Prof. Iwona Jasiuk, and Prof. Seid Koric.</p>
   </header>
 
   <p class="kx-bio">
