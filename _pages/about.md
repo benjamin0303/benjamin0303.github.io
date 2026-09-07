@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: PhD candidate · University of Illinois Urbana-Champaign
+subtitle: PhD student · University of Illinois Urbana-Champaign
 nav: false
 
 selected_papers: false
@@ -29,16 +29,16 @@ latest_posts:
   <header class="kx-hero">
     <p class="kx-kicker">Hello and Welcome 🖐️</p>
     <p class="kx-subtitle">
-      I am a PhD candidate at the University of Illinois Urbana-Champaign, fortunate to be advised by
+      I am a PhD student at the University of Illinois Urbana-Champaign, fortunate to be advised by
       <a href="https://grainger.illinois.edu/about/directory/faculty/alams" target="_blank" rel="noopener noreferrer">Prof. Syed Bahauddin Alam</a>,
       <a href="https://grainger.illinois.edu/about/directory/faculty/ijasiuk" target="_blank" rel="noopener noreferrer">Prof. Iwona Jasiuk</a>, and
-      <a href="https://grainger.illinois.edu/about/directory/faculty/koric" target="_blank" rel="noopener noreferrer">Prof. Seid Koric</a>.
+      <a href="https://grainger.illinois.edu/about/directory/faculty/koric" target="_blank" rel="noopener noreferrer">Prof. Seid Koric</a>. I am affiliated with the National Center for Supercomputing Applications (NCSA). 
     </p>
   </header>
 
   <p class="kx-bio">
-    I am interested in building AI systems that support scientific discovery.
-    My focus is on <strong>agentic systems for science</strong>, with an emphasis on reliable hypothesis generation and domain-adapted modeling.
+    I am interested in building general purpose AI in solid mechanics, fluid dynamics, multiphysics and energy systems.
+    Questions I want to answer are: 
   </p>
 
   <nav class="contact-links kx-contacts" aria-label="Contact and academic profiles">
