@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: PhD @ University of Illinois Urbana-Champaign
+subtitle: PhD candidate @ University of Illinois Urbana-Champaign
 
 selected_papers: false
 social: true
@@ -14,6 +14,8 @@ latest_posts:
   enabled: false
 ---
 
-My research focuses on PDE foundation models and generative modeling for physical systems, with work extending into scientific machine learning.
+Hello and Welcome 🖐️ 
+I do research in AI, my current focus is agentic systems for science.
+My experience spans domain-specific foundation models, generative models, and neural operators.
 
 You can find my work on [GitHub](https://github.com/benjamin0303).
