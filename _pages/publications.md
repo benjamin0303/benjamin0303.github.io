@@ -13,6 +13,13 @@ nav_order: 2
     <ol class="kx-pubs">
       <li class="kx-pub">
         <p class="kx-pub-title">
+          <span class="kx-venue">[ Nature Communications ]</span>
+          <a href="https://arxiv.org/abs/2412.00107">Virtual Sensing to Enable Real-Time Monitoring of Inaccessible Locations &amp; Unmeasurable Parameters</a>
+        </p>
+        <p class="kx-pub-authors">Kazuma Kobayashi, Farid Ahmed, <strong>Jaewan Park</strong>, Subhankar Sarkar, Seid Koric, Souvik Chakraborty, Syed Bahauddin Alam</p>
+      </li>
+      <li class="kx-pub">
+        <p class="kx-pub-title">
           <span class="kx-venue">[ Communications Engineering ]</span>
           <a href="https://doi.org/10.1038/s44172-026-00714-4">Network architecture follows coupling in multiphysics systems: single vs. multiple branches in DeepONet and S-DeepONet</a>
         </p>
