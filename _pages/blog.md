@@ -1,7 +1,7 @@
 ---
 layout: posts
 permalink: /blog/
-title: blog
+title: Blog
 description: Notes on research and scientific machine learning.
 nav: true
 nav_order: 3

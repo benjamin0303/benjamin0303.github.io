@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /cv/
-title: cv
+title: CV
 description: Curriculum vitae and experience summary.
 nav: true
 nav_order: 4

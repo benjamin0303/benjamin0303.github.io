@@ -111,6 +111,45 @@ body > .container[role="main"] {
   }
 }
 
+.kx-publications-intro {
+  margin: 0 0 16px;
+  color: var(--global-text-color-light);
+  font-size: 0.95rem;
+}
+
+.kx-publications .bibliography {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+
+  .bibliography {
+    margin: 0;
+    list-style: none;
+  }
+
+  li {
+    border-top: 1px solid var(--global-divider-color);
+    padding: 12px 0 14px;
+    font-size: 1.02rem;
+
+    + li {
+      margin-top: 0;
+    }
+  }
+
+  .title {
+    color: var(--global-text-color);
+    font-weight: 500;
+  }
+
+  .periodical {
+    color: var(--global-theme-color);
+    font-size: 0.96rem;
+    margin: 4px 0;
+    display: block;
+  }
+}
+
 .kx-timeline li {
   display: flex;
   gap: 14px;

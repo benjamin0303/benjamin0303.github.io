@@ -1,20 +1,16 @@
 ---
 layout: page
 permalink: /publications/
-title: publications
-description: Research publications.
+title: Publications
+description: Recent publications and manuscripts.
 nav: true
 nav_order: 2
 ---
 
-{% include bib_search.liquid %}
-
-<div class="publications-list">
-  <p class="publications-intro">
-    Research articles, preprints, and conference papers.
-    Add BibTeX entries in <code>_bibliography/papers.bib</code> to populate this page.
+<section class="kx-section kx-publications">
+  <h2>Latest publications</h2>
+  <p class="kx-publications-intro">
+    Add BibTeX items in <code>_bibliography/papers.bib</code> to populate this page.
   </p>
-
-{% bibliography %}
-
-</div>
+  {% bibliography %}
+</section>
