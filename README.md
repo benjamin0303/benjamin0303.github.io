@@ -48,4 +48,10 @@ bundle exec jekyll serve
 
 Open http://localhost:4000/. The production `baseurl` is empty because this is a personal site at the domain root.
 
-See [al-folio documentation](docs/README.md) for more customization options. Theme runtime comes from the versioned gems in `Gemfile`; there are no custom layout or style overrides.
+See [al-folio documentation](docs/README.md) for more customization options. Theme runtime comes from the versioned gems in `Gemfile`.
+
+## Personal design
+
+Edit `_sass/_personal.scss` to change the site's colors, typography, contact buttons, and responsive spacing. The homepage content and research areas are in `_pages/about.md`; contact buttons use `_data/socials.yml`.
+
+`assets/css/main.scss` overrides the theme's stylesheet entry point to load the personal styles after the standard al-folio styles. This override is recorded in `.al-folio-overrides.yml`. After updating theme gems, run `bundle exec al-folio upgrade overrides audit` to check it for upstream changes.
