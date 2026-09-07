@@ -220,6 +220,8 @@ include: ["_pages"]
 exclude:
   - test/
   - assets/audio/
+  - assets/bibliography/
+  - assets/html/
   - assets/img/
   - assets/json/
   - assets/jupyter/
