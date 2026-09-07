@@ -11,7 +11,14 @@ html[data-theme="dark"] {
   --global-text-color-light: #aebfc2;
   --global-theme-color: #82ccc4;
   --global-hover-color: #a4dfd8;
-  --global-divider-color: #3f5053;
+
+  // Deep navy ground: the teal accent is a different hue family, so links stay
+  // separable by colour and not only by brightness. Surfaces above the ground
+  // (dividers, cards, code) are tinted to the same navy rather than left grey.
+  --global-bg-color: #050d27;
+  --global-divider-color: #222c4d;
+  --global-card-bg-color: #0b1436;
+  --global-code-bg-color: #101c44;
 }
 
 body {
