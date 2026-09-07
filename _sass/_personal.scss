@@ -182,6 +182,58 @@ body:has(.kx-shell) {
   color: var(--global-text-color);
 }
 
+.kx-research {
+  max-width: 900px;
+}
+
+.kx-pubs {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.kx-pub {
+  margin: 0 0 20px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.kx-pub-title {
+  margin: 0 0 4px;
+  font-size: 1rem;
+  line-height: 1.5;
+
+  a {
+    color: var(--global-text-color);
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+
+    &:hover {
+      color: var(--global-theme-color);
+      border-bottom-color: var(--global-theme-color);
+    }
+  }
+}
+
+.kx-venue {
+  color: var(--global-text-color-light);
+  white-space: nowrap;
+}
+
+.kx-pub-authors {
+  margin: 0;
+  color: var(--global-text-color-light);
+  font-size: 0.88rem;
+  line-height: 1.55;
+
+  strong {
+    color: var(--global-text-color);
+    font-weight: 500;
+  }
+}
+
 .kx-publications-intro {
   margin: 0 0 16px;
   color: var(--global-text-color-light);
