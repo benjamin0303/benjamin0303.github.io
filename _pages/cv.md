@@ -7,8 +7,13 @@ nav: true
 nav_order: 5
 ---
 
-<a class="button btn" href="{{ site.data.socials.cv_pdf | relative_url }}" target="_blank" rel="noopener noreferrer">
-  <i class="fa-solid fa-file-pdf" aria-hidden="true"></i> Download CV (PDF)
-</a>
+<div class="kx-shell kx-page">
+  {% include kx-rail.liquid %}
 
-<p>Download your CV directly from the button above.</p>
+  <div class="kx-col">
+    <h1 class="kx-page-title">CV</h1>
+    <p class="kx-page-desc">
+      <a href="{{ site.data.socials.cv_pdf | relative_url }}" target="_blank" rel="noopener noreferrer">Download CV (PDF)</a>
+    </p>
+  </div>
+</div>

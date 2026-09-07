@@ -78,7 +78,8 @@ body:has(.kx-shell) {
     // The menu lives in the rail now; only the theme toggle stays. Below the
     // navbar's own breakpoint the toggle sits inside the collapsed menu, so the
     // hamburger has to stay too or dark mode becomes unreachable on phones.
-    .nav-item {
+    .nav-item,
+    .navbar-brand {
       display: none;
     }
 
@@ -98,19 +99,55 @@ body:has(.kx-shell) {
 // structure survives a half-width window instead of collapsing at the first
 // squeeze. The rail keeps its own width and carries the wider gutter.
 .kx-shell {
+  --kx-rail: 212px;
+  --kx-gutter: 42px;
+
   display: grid;
-  grid-template-columns: 212px minmax(0, 0.38fr) minmax(0, 0.62fr);
+  grid-template-columns: var(--kx-rail) minmax(0, 0.38fr) minmax(0, 0.62fr);
   column-gap: 34px;
   row-gap: 56px;
   align-items: start;
+
+  // Inner pages carry the same rail with a single content column.
+  &.kx-page {
+    grid-template-columns: var(--kx-rail) minmax(0, 1fr);
+    row-gap: 30px;
+  }
+}
+
+.kx-col {
+  min-width: 0;
+}
+
+.kx-page-title {
+  margin: 0 0 5px;
+  font-size: 1.45rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  line-height: 1.25;
+}
+
+.kx-page-desc {
+  margin: 0 0 28px;
+  color: var(--global-text-color-light);
+  font-size: 0.95rem;
 }
 
 .kx-rail {
   padding-top: 2px;
-  padding-right: 42px;
+  padding-right: var(--kx-gutter);
 }
 
 .kx-name {
+  a {
+    color: inherit;
+    text-decoration: none;
+
+    &:hover {
+      color: var(--global-theme-color);
+    }
+  }
+
   font-size: 1.7rem;
   font-weight: 700;
   line-height: 1.2;
@@ -133,6 +170,10 @@ body:has(.kx-shell) {
     &:hover {
       color: var(--global-theme-color);
       border-bottom-color: var(--global-theme-color);
+    }
+
+    &.is-current {
+      color: var(--global-theme-color);
     }
   }
 }
@@ -189,10 +230,6 @@ body:has(.kx-shell) {
 .kx-date {
   margin-right: 7px;
   color: var(--global-text-color);
-}
-
-.kx-research {
-  max-width: 900px;
 }
 
 .kx-pubs {
@@ -393,12 +430,10 @@ a:focus-visible,
 
 @media (max-width: 1023px) {
   .kx-shell {
-    grid-template-columns: 194px minmax(0, 0.38fr) minmax(0, 0.62fr);
-    column-gap: 26px;
-  }
+    --kx-rail: 194px;
+    --kx-gutter: 24px;
 
-  .kx-rail {
-    padding-right: 24px;
+    column-gap: 26px;
   }
 }
 
@@ -406,12 +441,10 @@ a:focus-visible,
 // name shrink so the three columns survive instead of stacking.
 @media (max-width: 839px) {
   .kx-shell {
-    grid-template-columns: 168px minmax(0, 0.38fr) minmax(0, 0.62fr);
-    column-gap: 20px;
-  }
+    --kx-rail: 168px;
+    --kx-gutter: 18px;
 
-  .kx-rail {
-    padding-right: 18px;
+    column-gap: 20px;
   }
 
   .kx-name {
@@ -426,12 +459,10 @@ a:focus-visible,
 
 @media (max-width: 699px) {
   .kx-shell {
-    grid-template-columns: 140px minmax(0, 0.38fr) minmax(0, 0.62fr);
-    column-gap: 16px;
-  }
+    --kx-rail: 140px;
+    --kx-gutter: 14px;
 
-  .kx-rail {
-    padding-right: 14px;
+    column-gap: 16px;
   }
 
   .kx-name {
@@ -444,13 +475,12 @@ a:focus-visible,
 }
 
 @media (max-width: 599px) {
-  .kx-shell {
+  .kx-shell,
+  .kx-shell.kx-page {
+    --kx-gutter: 0px;
+
     grid-template-columns: minmax(0, 1fr);
     row-gap: 30px;
-  }
-
-  .kx-rail {
-    padding-right: 0;
   }
 
   .kx-name {

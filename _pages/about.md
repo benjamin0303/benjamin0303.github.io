@@ -16,15 +16,7 @@ latest_posts:
 ---
 
 <div class="kx-shell">
-  <aside class="kx-rail">
-    <h1 class="kx-name">Jaewan Park</h1>
-    <nav class="kx-rail-nav" aria-label="Site sections">
-      <a href="{{ '/publications/' | relative_url }}">Research</a>
-      <a href="{{ '/blog/' | relative_url }}">Blog</a>
-      <a href="{{ '/photo/' | relative_url }}">Photo</a>
-      <a href="{{ '/cv/' | relative_url }}">CV</a>
-    </nav>
-  </aside>
+  {% include kx-rail.liquid %}
 
   <figure class="profile-flip kx-profile">
     <button class="profile-flip-button" type="button" aria-label="Show pumpkin photo" aria-pressed="false" aria-describedby="profile-flip-hint">

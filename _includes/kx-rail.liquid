@@ -1,0 +1,33 @@
+<aside class="kx-rail">
+  <p class="kx-name"><a href="{{ '/' | relative_url }}">Jaewan Park</a></p>
+  <nav class="kx-rail-nav" aria-label="Site sections">
+    <a
+      href="{{ '/publications/' | relative_url }}"
+      {% if page.url == '/publications/' %}
+        class="is-current" aria-current="page"
+      {% endif %}
+      >Research</a
+    >
+    <a
+      href="{{ '/blog/' | relative_url }}"
+      {% if page.url == '/blog/' %}
+        class="is-current" aria-current="page"
+      {% endif %}
+      >Blog</a
+    >
+    <a
+      href="{{ '/photo/' | relative_url }}"
+      {% if page.url == '/photo/' %}
+        class="is-current" aria-current="page"
+      {% endif %}
+      >Photo</a
+    >
+    <a
+      href="{{ '/cv/' | relative_url }}"
+      {% if page.url == '/cv/' %}
+        class="is-current" aria-current="page"
+      {% endif %}
+      >CV</a
+    >
+  </nav>
+</aside>

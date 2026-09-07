@@ -7,7 +7,13 @@ nav: true
 nav_order: 2
 ---
 
-<div class="kx-research">
+<div class="kx-shell kx-page">
+  {% include kx-rail.liquid %}
+
+  <div class="kx-col">
+    <h1 class="kx-page-title">Research</h1>
+    <p class="kx-page-desc">Journal papers and preprints, newest first.</p>
+
   <section class="kx-section">
     <h2>2026</h2>
     <ol class="kx-pubs">
@@ -102,4 +108,5 @@ nav_order: 2
     </ol>
   </section>
   <p class="kx-pub-note"><sup>*</sup> Equal contribution.</p>
+  </div>
 </div>
