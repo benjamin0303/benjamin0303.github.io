@@ -25,7 +25,6 @@ latest_posts:
   <figcaption id="profile-flip-hint">Click or tap to see 🎃</figcaption>
 
   <nav class="contact-links kx-contacts kx-flip-links" aria-label="Scholarly and professional profiles">
-    <!-- Flip links -->
     <a href="https://scholar.google.com/citations?user={{ site.data.socials.scholar_userid }}"><i class="ai ai-google-scholar" aria-hidden="true"></i> Google Scholar</a>
     <a href="https://github.com/{{ site.data.socials.github_username }}"><i class="fa-brands fa-github" aria-hidden="true"></i> GitHub</a>
     <a href="https://www.linkedin.com/in/{{ site.data.socials.linkedin_username }}"><i class="fa-brands fa-linkedin" aria-hidden="true"></i> LinkedIn</a>
