@@ -4,7 +4,7 @@ permalink: /cv/
 title: CV
 description: Curriculum vitae and experience summary.
 nav: true
-nav_order: 4
+nav_order: 5
 ---
 
 <a class="button btn" href="{{ site.data.socials.cv_pdf | relative_url }}" target="_blank" rel="noopener noreferrer">
