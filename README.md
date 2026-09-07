@@ -29,7 +29,7 @@ The first version uses the public GitHub profile bio. No publication records, ac
 
 Demonstration assets are excluded from the published site in `_config.yml`.
 
-- For a photo, replace the demo files in `assets/img/` with your own, remove `assets/img/` from `exclude`, and add a `profile` block to `_pages/about.md` with `image: your-photo.jpg` and `align: right`.
+- The homepage photo flips between `assets/photos/jaewan.jpeg` and `assets/photos/pumpkin.jpeg` when clicked, tapped, or activated with Enter/Space. Replace these files to change the photos, and update their descriptions in `_pages/about.md` if needed. The flip respects the visitor's reduced-motion setting.
 - For a CV, replace the demo files in `assets/pdf/` with your own `cv.pdf`, remove `assets/pdf/` from `exclude`, and enable `cv_pdf: /assets/pdf/cv.pdf` in `_data/socials.yml`.
 
 ## Hosting and build

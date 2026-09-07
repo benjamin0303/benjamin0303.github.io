@@ -99,12 +99,15 @@ body > .container[role="main"] {
   }
 }
 
-a:focus-visible {
+a:focus-visible,
+.profile-flip-button:focus-visible {
   outline: 2px solid var(--global-theme-color);
   outline-offset: 4px;
 }
 
 .research-areas {
+  clear: both;
+
   h2 {
     font-size: 0.8rem;
     font-weight: 500;
@@ -128,6 +131,73 @@ a:focus-visible {
     padding-top: 16px;
     font-size: 1.05rem;
     line-height: 1.5;
+  }
+}
+
+.profile-flip {
+  float: right;
+  width: 260px;
+  margin: 0 0 28px 36px;
+
+  figcaption {
+    margin-top: 12px;
+    color: var(--global-text-color-light);
+    font-size: 0.75rem;
+    text-align: center;
+  }
+}
+
+.profile-flip-button {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1;
+  padding: 0;
+  border: 0;
+  border-radius: 12px;
+  background: transparent;
+  cursor: pointer;
+  perspective: 1000px;
+
+  &[aria-pressed="true"] .profile-flip-inner {
+    transform: rotateY(180deg);
+  }
+}
+
+.profile-flip-inner {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: transform 600ms ease-in-out;
+
+  img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+
+  .profile-back {
+    transform: rotateY(180deg);
+  }
+}
+
+@media (max-width: 767px) {
+  .profile-flip {
+    float: none;
+    width: min(260px, 100%);
+    margin: 0 auto 32px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .profile-flip-inner {
+    transition: none;
   }
 }
 

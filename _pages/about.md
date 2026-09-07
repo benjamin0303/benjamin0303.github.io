@@ -14,6 +14,16 @@ latest_posts:
   enabled: false
 ---
 
+<figure class="profile-flip">
+  <button class="profile-flip-button" type="button" aria-label="Show pumpkin photo" aria-pressed="false" aria-describedby="profile-flip-hint">
+    <span class="profile-flip-inner">
+      <img class="profile-front" src="{{ '/assets/photos/jaewan.jpeg' | relative_url }}" alt="Jaewan Park carving a pumpkin" width="2292" height="2511" fetchpriority="high">
+      <img class="profile-back" src="{{ '/assets/photos/pumpkin.jpeg' | relative_url }}" alt="A glowing pumpkin carved with a smiling ghost" width="2381" height="2031" aria-hidden="true">
+    </span>
+  </button>
+  <figcaption id="profile-flip-hint">Click or tap the photo to flip</figcaption>
+</figure>
+
 <div class="academic-intro" markdown="1">
 
 Hello and welcome! :wave:
@@ -41,3 +51,5 @@ My experience spans domain-specific foundation models, generative models, and ne
     <li>Neural<br> operators</li>
   </ul>
 </section>
+
+<script src="{{ '/assets/js/profile-flip.js' | relative_url }}" defer></script>
