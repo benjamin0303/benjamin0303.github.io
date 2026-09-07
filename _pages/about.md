@@ -44,25 +44,17 @@ latest_posts:
   </header>
 
   <p class="kx-bio">
-    I am interested in building general purpose AI in solid mechanics, fluid dynamics, multiphysics and energy systems.
+    I am interested in building general purpose AI in mechanics (solid and fluid), energy systems, and healthcare.
     Questions I want to answer are: 
   </p>
 
-  <section class="kx-section">
-    <h2>Questions I’m exploring</h2>
-    <ul>
-      <li>How can agentic systems run robust scientific experiments and planning loops?</li>
-      <li>How do we make foundation models for science more reliable in narrow domains?</li>
-      <li>How can uncertainty and interpretability be embedded in AI-assisted discovery?</li>
-    </ul>
-  </section>
 
   <section class="kx-section">
     <h2>What’s new</h2>
     <ul class="kx-timeline">
-      <li><span class="kx-date">2026</span> Personal website refreshed into a cleaner single-column research-first layout.</li>
-      <li><span class="kx-date">2026</span> Added split-view profile photo interaction.</li>
-      <li><span class="kx-date">2026</span> Launched new publication + blog + CV navigation.</li>
+      <li><span class="kx-date">2026.09</span> Accepted to SC26 conference, AI4S workshop</li>
+      <li><span class="kx-date">2025.09</span> We won the HPCWire award in Editor's Choice -- Best Use of HPC in Energy 🥳🥳
+</li>
     </ul>
   </section>
 </article>
