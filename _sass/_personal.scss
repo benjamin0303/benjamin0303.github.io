@@ -9,8 +9,10 @@
 html[data-theme="dark"] {
   --global-text-color: #e6edee;
   --global-text-color-light: #aebfc2;
-  --global-theme-color: #82ccc4;
-  --global-hover-color: #a4dfd8;
+  // Amber sits opposite the navy ground on the colour wheel, so links separate
+  // by hue and not only by brightness the way the teal did.
+  --global-theme-color: #ffc857;
+  --global-hover-color: #ffd884;
 
   // Deep navy ground: the teal accent is a different hue family, so links stay
   // separable by colour and not only by brightness. Surfaces above the ground
