@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://benjamin0303.github.io/sitemap.xml
