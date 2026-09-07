@@ -202,7 +202,7 @@ a:focus-visible,
 .profile-flip {
   float: right;
   width: 260px;
-  margin: -4px 0 30px 36px;
+  margin: -36px 0 24px 36px;
 
   figcaption {
     margin-top: 12px;
@@ -210,6 +210,11 @@ a:focus-visible,
     font-size: 0.75rem;
     text-align: center;
   }
+}
+
+.kx-flip-links {
+  margin-top: 18px;
+  justify-content: center;
 }
 
 .kx-profile {

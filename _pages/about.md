@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: PhD student · University of Illinois Urbana-Champaign
+subtitle: PhD candidate · UIUC
 nav: false
 
 selected_papers: false
@@ -23,13 +23,20 @@ latest_posts:
     </span>
   </button>
   <figcaption id="profile-flip-hint">Click or tap to see 🎃</figcaption>
+
+  <nav class="contact-links kx-contacts kx-flip-links" aria-label="Scholarly and professional profiles">
+    <a href="https://scholar.google.com/citations?user={{ site.data.socials.scholar_userid }}"><i class="ai ai-google-scholar" aria-hidden="true"></i> Google Scholar</a>
+    <a href="https://github.com/{{ site.data.socials.github_username }}"><i class="fa-brands fa-github" aria-hidden="true"></i> GitHub</a>
+    <a href="https://www.linkedin.com/in/{{ site.data.socials.linkedin_username }}"><i class="fa-brands fa-linkedin" aria-hidden="true"></i> LinkedIn</a>
+    <a href="{{ site.data.socials.cv_pdf | relative_url }}" target="_blank" rel="noopener noreferrer" aria-label="CV (PDF, opens in a new tab)"><i class="fa-solid fa-file-pdf" aria-hidden="true"></i> CV</a>
+  </nav>
 </figure>
 
 <article class="kx-about">
   <header class="kx-hero">
     <p class="kx-kicker">Hello and Welcome 🖐️</p>
     <p class="kx-subtitle">
-      I am a PhD student at the University of Illinois Urbana-Champaign, fortunate to be advised by
+      I am a PhD candidate at UIUC, fortunate to be advised by
       <a href="https://grainger.illinois.edu/about/directory/faculty/alams" target="_blank" rel="noopener noreferrer">Prof. Syed Bahauddin Alam</a>,
       <a href="https://grainger.illinois.edu/about/directory/faculty/ijasiuk" target="_blank" rel="noopener noreferrer">Prof. Iwona Jasiuk</a>, and
       <a href="https://grainger.illinois.edu/about/directory/faculty/koric" target="_blank" rel="noopener noreferrer">Prof. Seid Koric</a>. I am affiliated with the National Center for Supercomputing Applications (NCSA). 
@@ -40,14 +47,6 @@ latest_posts:
     I am interested in building general purpose AI in solid mechanics, fluid dynamics, multiphysics and energy systems.
     Questions I want to answer are: 
   </p>
-
-  <nav class="contact-links kx-contacts" aria-label="Contact and academic profiles">
-    <a class="email-link" href="mailto:{{ site.data.socials.email }}"><i class="fa-solid fa-envelope" aria-hidden="true"></i> Email</a>
-    <a href="https://scholar.google.com/citations?user={{ site.data.socials.scholar_userid }}"><i class="ai ai-google-scholar" aria-hidden="true"></i> Google Scholar</a>
-    <a href="https://github.com/{{ site.data.socials.github_username }}"><i class="fa-brands fa-github" aria-hidden="true"></i> GitHub</a>
-    <a href="https://www.linkedin.com/in/{{ site.data.socials.linkedin_username }}"><i class="fa-brands fa-linkedin" aria-hidden="true"></i> LinkedIn</a>
-    <a href="{{ site.data.socials.cv_pdf | relative_url }}" target="_blank" rel="noopener noreferrer" aria-label="CV (PDF, opens in a new tab)"><i class="fa-solid fa-file-pdf" aria-hidden="true"></i> CV</a>
-  </nav>
 
   <section class="kx-section">
     <h2>Questions I’m exploring</h2>
