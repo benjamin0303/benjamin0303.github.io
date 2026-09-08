@@ -92,17 +92,43 @@ body:has(.kx-shell) {
   padding-top: 0 !important;
 
   #navbar {
+    // Absolute boxes shrink to their content, which parks the theme toggle on
+    // the left; the offsets keep the bar full width so the toggle stays at the
+    // right edge of the content band.
     position: absolute;
+    left: 0;
+    right: 0;
+
+    // The bar is a flex container, so its inner .container would size to its
+    // content (the lone toggle) and sit on the left without this.
+    > .container {
+      flex: 1 1 auto;
+    }
   }
 
   .container[role="main"] {
     padding-top: 0;
   }
 
+  // Left-aligned rather than centred: the page hangs off a fixed 50px inset the
+  // way the reference site does, and the slack collects on the right.
   .container[role="main"],
   #navbar > .container,
   footer.sticky-bottom .container {
+    // width:auto so the box shrinks to the viewport instead of staying 100%
+    // wide and pushing a scrollbar out past the left margin.
+    width: auto;
     max-width: 1040px;
+    margin-left: 35px; // + the container's own 15px padding = 50px
+    margin-right: auto;
+  }
+
+  @media (max-width: 899px) {
+    .container[role="main"],
+    #navbar > .container,
+    footer.sticky-bottom .container {
+      margin-left: 0;
+    }
   }
 
   #navbar {
@@ -305,6 +331,11 @@ body:has(.kx-shell) {
 .kx-venue {
   color: var(--global-text-color-light);
   white-space: nowrap;
+
+  // Long journal names cannot hold one line on a phone.
+  @media (max-width: 599px) {
+    white-space: normal;
+  }
 }
 
 .kx-pub-authors {
