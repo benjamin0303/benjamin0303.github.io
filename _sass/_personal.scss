@@ -3,7 +3,12 @@
   --global-text-color-light: #596870;
   --global-theme-color: #176b68;
   --global-hover-color: #11514f;
-  --global-divider-color: #dce5e4;
+
+  // Ivory rather than white: warm enough to read as paper, pale enough to keep
+  // body text above 12:1. The divider follows it warm so the rules do not look
+  // grey against the ground.
+  --global-bg-color: #fbf8f1;
+  --global-divider-color: #e4ded1;
 }
 
 html[data-theme="dark"] {

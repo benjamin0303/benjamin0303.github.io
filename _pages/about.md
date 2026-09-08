@@ -41,7 +41,7 @@ latest_posts:
 
   <div class="kx-intro">
     <p>
-      Hi! I am Jaewan 🖐️ I am a PhD candidate at UIUC, fortunate to be advised by
+      Hello and Welcome 🐳 I am Jaewan, a PhD candidate at UIUC, fortunate to be advised by
       <a href="https://grainger.illinois.edu/about/directory/faculty/alams" target="_blank" rel="noopener noreferrer">Prof. Syed Bahauddin Alam</a>,
       <a href="https://grainger.illinois.edu/about/directory/faculty/ijasiuk" target="_blank" rel="noopener noreferrer">Prof. Iwona Jasiuk</a>, and
       <a href="https://grainger.illinois.edu/about/directory/faculty/koric" target="_blank" rel="noopener noreferrer">Prof. Seid Koric</a>. I am affiliated with the National Center for Supercomputing Applications (NCSA).
