@@ -60,10 +60,10 @@ latest_posts:
       develop modules to improve the long-horizon stability of PDE foundation models.
     </p>
     <p>
-      Before Illinois, I did my undergrad in mechanical engineering at POSTECH in South Korea, and spent a summer at Stanford.
+      Before Illinois, I did my undergrad in mechanical engineering at POSTECH, and spent a summer at Stanford.
     </p>
     <p>
-      Outside the lab, I mostly do HIIT and play Cyberpunk.
+      Outside the lab, I enjoy HIIT and Cyberpunk.
     </p>
   </div>
 
