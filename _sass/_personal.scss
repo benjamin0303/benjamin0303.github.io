@@ -217,6 +217,7 @@ body:has(.kx-shell) {
 
 .kx-name {
   color: var(--kx-strong);
+  font-family: var(--kx-display);
 
   a {
     color: inherit;
