@@ -47,16 +47,15 @@ latest_posts:
       <a href="https://grainger.illinois.edu/about/directory/faculty/koric" target="_blank" rel="noopener noreferrer">Prof. Seid Koric</a>. I am affiliated with the National Center for Supercomputing Applications (NCSA).
     </p>
     <p>
-      I build general-purpose AI for the physical world — mechanics (solid, fluid, multiphysics), energy systems, and healthcare.
+      I work toward general-purpose AI for the physical world, with applications in mechanics, nuclear energy systems, and healthcare.
+      My work began with neural operators for multiphysics surrogate modeling. This led me into generative AI for inverse design and
+      reconstruction from sparse observations&mdash;and to a broader question that now drives my research:
     </p>
-    <!-- Questions to answer, once you settle on the wording:
-    <p>Questions I am excited about:</p>
-    <ul>
-      <li>Can one model learn the structure shared by stress, flow, and transport — instead of one network per PDE?</li>
-      <li>When a model predicts a physical field, when should it say <em>I don't know</em>?</li>
-      <li>Do these models transfer from simulation to real measurements — sparse sensors, noisy images, messy data?</li>
-    </ul>
-    -->
+    <p class="kx-question">How far can AI go in helping scientists turn complex data into understanding and action?</p>
+    <p>
+      This question now guides my work on agentic AI and foundation models: I train LLM agents to automate PDE solver coding, and I
+      develop modules to improve the long-horizon stability of PDE foundation models.
+    </p>
   </div>
 
   <div class="kx-body">

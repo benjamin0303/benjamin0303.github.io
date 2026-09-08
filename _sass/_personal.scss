@@ -263,6 +263,16 @@ body:has(.kx-shell) {
   p:last-child {
     margin-bottom: 0;
   }
+
+  // The question the rest of the page hangs off: set apart from the prose
+  // around it, but without a rule or a box.
+  .kx-question {
+    margin: 22px 0;
+    font-size: 1.02rem;
+    font-style: italic;
+    line-height: 1.6;
+    color: var(--kx-strong);
+  }
 }
 
 // Spans the photo and text columns so every section below the fold lines up
