@@ -61,8 +61,6 @@ latest_posts:
     </p>
     <p>
       Before Illinois, I did my undergrad in mechanical engineering at POSTECH, and spent a summer at Stanford.
-    </p>
-    <p>
       Outside the lab, I enjoy HIIT and Cyberpunk.
     </p>
   </div>
