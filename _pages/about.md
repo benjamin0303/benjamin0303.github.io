@@ -56,7 +56,7 @@ latest_posts:
       <li>How can we build models that generalize across diverse physical systems, and where can they be most useful?</li>
     </ul>
     <p>
-      This question now guides my work on agentic AI and foundation models: I train LLM agents to automate PDE solver coding, and I
+      These questions now guide my work on agentic AI and foundation models: I train LLM agents to automate PDE solver coding, and I
       develop modules to improve the long-horizon stability of PDE foundation models.
     </p>
     <p>
