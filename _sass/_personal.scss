@@ -119,7 +119,12 @@ body:has(.kx-shell) {
     // wide and pushing a scrollbar out past the left margin.
     width: auto;
     max-width: 1040px;
-    margin-left: 35px; // + the container's own 15px padding = 50px
+    // 30px of padding is the floor for the side gutters, so a narrow window
+    // never puts text closer than that to the edge; the margin makes up the
+    // rest of the 50px inset on a wide one.
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 20px;
     margin-right: auto;
   }
 
