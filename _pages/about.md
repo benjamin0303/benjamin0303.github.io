@@ -61,7 +61,7 @@ latest_posts:
 
   <div class="kx-body">
     <section class="kx-section">
-      <h2>What's new:</h2>
+      <h2>Lately:</h2>
       <ul class="kx-timeline">
         <li><span class="kx-date">2026.09</span>Accepted to SC26 conference, AI4S workshop</li>
         <li><span class="kx-date">2025.09</span>We won the HPCWire award in Editor's Choice -- Best Use of HPC in Energy 🥳🥳</li>
