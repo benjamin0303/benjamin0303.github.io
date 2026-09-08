@@ -1,6 +1,10 @@
 :root {
-  --global-text-color: #24323b;
-  --global-text-color-light: #596870;
+  // Body text sits lighter than the headings, the way the reference site does
+  // (#666 body against #121212 headings) — but a good deal darker than that:
+  // 8.2:1 against the ivory, where its grey is 5.4:1.
+  --global-text-color: #3d4a52;
+  --global-text-color-light: #66757d;
+  --kx-strong: #1f2b33;
   --global-theme-color: #176b68;
   --global-hover-color: #11514f;
 
@@ -12,8 +16,9 @@
 }
 
 html[data-theme="dark"] {
-  --global-text-color: #e6edee;
-  --global-text-color-light: #aebfc2;
+  --global-text-color: #dbe4e6;
+  --global-text-color-light: #a3b4b8;
+  --kx-strong: #f4f9fa;
   // Amber sits opposite the navy ground on the colour wheel, so links separate
   // by hue and not only by brightness the way the teal did.
   --global-theme-color: #ffc857;
@@ -44,6 +49,7 @@ body > .container[role="main"] {
   margin-bottom: 34px;
 
   .post-title {
+    color: var(--kx-strong);
     font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 1.7rem;
     font-weight: 700;
@@ -144,6 +150,7 @@ body:has(.kx-shell) {
 
 .kx-page-title {
   margin: 0 0 5px;
+  color: var(--kx-strong);
   font-size: 1.45rem;
   font-weight: 600;
   letter-spacing: -0.01em;
@@ -162,6 +169,8 @@ body:has(.kx-shell) {
 }
 
 .kx-name {
+  color: var(--kx-strong);
+
   a {
     color: inherit;
     text-decoration: none;
@@ -232,7 +241,7 @@ body:has(.kx-shell) {
     font-weight: 500;
     letter-spacing: 0;
     text-transform: none;
-    color: var(--global-text-color);
+    color: var(--kx-strong);
   }
 
   ul {
@@ -252,7 +261,7 @@ body:has(.kx-shell) {
 
 .kx-date {
   margin-right: 7px;
-  color: var(--global-text-color);
+  color: var(--kx-strong);
 }
 
 .kx-pubs {
@@ -275,7 +284,7 @@ body:has(.kx-shell) {
   line-height: 1.5;
 
   a {
-    color: var(--global-text-color);
+    color: var(--kx-strong);
     text-decoration: none;
     border-bottom: 1px solid transparent;
 
