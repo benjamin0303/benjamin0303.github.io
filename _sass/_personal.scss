@@ -173,7 +173,7 @@ body:has(.kx-shell) {
 // structure survives a half-width window instead of collapsing at the first
 // squeeze. The rail keeps its own width and carries the wider gutter.
 .kx-shell {
-  --kx-rail: 252px;
+  --kx-rail: 212px;
   --kx-gutter: 42px;
 
   display: grid;
@@ -218,9 +218,6 @@ body:has(.kx-shell) {
 .kx-name {
   color: var(--kx-strong);
   font-family: var(--kx-display);
-  // The display face is wider than the sans it replaced; the rail is sized to
-  // hold the name on one line and this keeps it honest.
-  white-space: nowrap;
 
   a {
     color: inherit;
@@ -554,7 +551,7 @@ a:focus-visible,
 
 @media (max-width: 1023px) {
   .kx-shell {
-    --kx-rail: 226px;
+    --kx-rail: 194px;
     --kx-gutter: 24px;
 
     column-gap: 26px;
@@ -565,7 +562,7 @@ a:focus-visible,
 // name shrink so the three columns survive instead of stacking.
 @media (max-width: 839px) {
   .kx-shell {
-    --kx-rail: 196px;
+    --kx-rail: 168px;
     --kx-gutter: 18px;
 
     column-gap: 20px;
@@ -583,7 +580,7 @@ a:focus-visible,
 
 @media (max-width: 699px) {
   .kx-shell {
-    --kx-rail: 166px;
+    --kx-rail: 140px;
     --kx-gutter: 14px;
 
     column-gap: 16px;
