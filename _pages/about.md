@@ -49,9 +49,12 @@ latest_posts:
     <p>
       I work toward general-purpose AI for the physical world, with applications in mechanics, nuclear energy systems, and healthcare.
       My work began with neural operators for multiphysics surrogate modeling. This led me into generative AI for inverse design and
-      reconstruction from sparse observations&mdash;and to a broader question that now drives my research:
+      reconstruction from sparse observations&mdash;and to the broader questions that now drive my research:
     </p>
-    <p class="kx-question">How far can AI go in helping scientists turn complex data into understanding and action?</p>
+    <ul class="kx-questions">
+      <li>How far can AI agents help scientists and engineers automate everyday tasks in mechanics research?</li>
+      <li>How can we build models that generalize across diverse physical systems, and where can they be most useful?</li>
+    </ul>
     <p>
       This question now guides my work on agentic AI and foundation models: I train LLM agents to automate PDE solver coding, and I
       develop modules to improve the long-horizon stability of PDE foundation models.

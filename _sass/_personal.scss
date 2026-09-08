@@ -264,14 +264,23 @@ body:has(.kx-shell) {
     margin-bottom: 0;
   }
 
-  // The question the rest of the page hangs off: set apart from the prose
-  // around it, but without a rule or a box.
-  .kx-question {
-    margin: 22px 0;
-    font-size: 1.02rem;
-    font-style: italic;
-    line-height: 1.6;
-    color: var(--kx-strong);
+  // The questions the rest of the page hangs off: set apart from the prose
+  // around them by weight of colour and a step in size, not a box.
+  .kx-questions {
+    margin: 20px 0;
+    padding-left: 20px;
+    list-style: disc;
+
+    li {
+      margin: 0 0 10px;
+      color: var(--kx-strong);
+      font-size: 0.96rem;
+      line-height: 1.6;
+    }
+
+    li:last-child {
+      margin-bottom: 0;
+    }
   }
 }
 
