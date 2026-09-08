@@ -123,11 +123,16 @@ body:has(.kx-shell) {
     margin-right: auto;
   }
 
-  @media (max-width: 899px) {
+  // The 50px inset only reads as a deliberate left alignment on a full-width
+  // window. Half a monitor is narrow enough that the fixed inset just looks
+  // lopsided — 50px on the left against the container's 15px on the right — so
+  // the band centres itself below that and the gutters stay even.
+  @media (max-width: 1399px) {
     .container[role="main"],
     #navbar > .container,
     footer.sticky-bottom .container {
-      margin-left: 0;
+      margin-left: auto;
+      margin-right: auto;
     }
   }
 
