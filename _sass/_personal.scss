@@ -33,6 +33,12 @@ html[data-theme="dark"] {
   --global-code-bg-color: #101c44;
 }
 
+// Everything is sized in rem, so the root scales the whole page down a notch
+// to the reference site's 15.6px body without touching each rule.
+html {
+  font-size: 15.5px;
+}
+
 body {
   font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 400;
@@ -96,7 +102,7 @@ body:has(.kx-shell) {
   .container[role="main"],
   #navbar > .container,
   footer.sticky-bottom .container {
-    max-width: 1150px;
+    max-width: 1040px;
   }
 
   #navbar {
@@ -146,6 +152,7 @@ body:has(.kx-shell) {
 
 .kx-col {
   min-width: 0;
+  max-width: 820px;
 }
 
 .kx-page-title {
