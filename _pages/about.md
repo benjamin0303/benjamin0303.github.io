@@ -63,7 +63,7 @@ latest_posts:
       Before Illinois, I did my undergrad in mechanical engineering at POSTECH in South Korea, and spent a summer at Stanford.
     </p>
     <p>
-      Outside the lab, I do HIIT and play cyberpunk games &mdash; you can see where this site&rsquo;s dark mode came from.
+      Outside the lab, I mostly do HIIT and play Cyberpunk.
     </p>
   </div>
 
