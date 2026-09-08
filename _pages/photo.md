@@ -14,8 +14,6 @@ nav_order: 4
 
   <div class="kx-col">
     <h1 class="kx-page-title">Photo</h1>
-    <p class="kx-page-desc">Drop images into <code>assets/photos/</code> and they show up here.</p>
-
     <div class="kx-gallery">
       {%- for file in photos -%}
         {%- unless file.name == "jaewan.jpeg" -%}
