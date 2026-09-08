@@ -370,6 +370,9 @@ body:has(.kx-shell) {
 // Columns rather than a grid: the photos are a mix of portrait, landscape and
 // square, and square-cropping them cuts the artwork in half.
 .kx-gallery {
+  // The Photo page has no standfirst under its title, so the gallery carries
+  // the gap the description would otherwise provide.
+  margin-top: 30px;
   columns: 3;
   column-gap: 16px;
   margin: 0;
