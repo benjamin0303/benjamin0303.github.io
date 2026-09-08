@@ -56,6 +56,9 @@ latest_posts:
       This question now guides my work on agentic AI and foundation models: I train LLM agents to automate PDE solver coding, and I
       develop modules to improve the long-horizon stability of PDE foundation models.
     </p>
+    <p>
+      Before Illinois, I did my undergrad in mechanical engineering at POSTECH in South Korea, and spent a summer at Stanford.
+    </p>
   </div>
 
   <div class="kx-body">
