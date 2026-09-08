@@ -367,22 +367,34 @@ body:has(.kx-shell) {
   }
 }
 
+// Columns rather than a grid: the photos are a mix of portrait, landscape and
+// square, and square-cropping them cuts the artwork in half.
 .kx-gallery {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
-  gap: 18px;
+  columns: 3;
+  column-gap: 16px;
   margin: 0;
 
   figure {
-    margin: 0;
+    margin: 0 0 16px;
+    break-inside: avoid;
   }
 
   img {
     display: block;
     width: 100%;
-    height: 100%;
-    object-fit: cover;
-    aspect-ratio: 1;
+    height: auto;
+  }
+}
+
+@media (max-width: 839px) {
+  .kx-gallery {
+    columns: 2;
+  }
+}
+
+@media (max-width: 599px) {
+  .kx-gallery {
+    columns: 1;
   }
 }
 
