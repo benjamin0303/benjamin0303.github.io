@@ -264,8 +264,8 @@ body:has(.kx-shell) {
     margin-bottom: 0;
   }
 
-  // The questions the rest of the page hangs off: set apart from the prose
-  // around them by weight of colour and a step in size, not a box.
+  // The questions the rest of the page hangs off. They read at the same size
+  // and colour as the prose around them; the bullets do the separating.
   .kx-questions {
     margin: 20px 0;
     padding-left: 20px;
@@ -273,9 +273,8 @@ body:has(.kx-shell) {
 
     li {
       margin: 0 0 10px;
-      color: var(--kx-strong);
-      font-size: 0.96rem;
-      line-height: 1.6;
+      font-size: 0.9rem;
+      line-height: 1.72;
     }
 
     li:last-child {
