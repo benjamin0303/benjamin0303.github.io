@@ -1,0 +1,44 @@
+<script>
+  // The theme ships with three settings (system / light / dark) and starts on
+  // "system". This page wants light by default and a two-state switch, so the
+  // stored setting is seeded to light on a first visit, and any landing on
+  // "system" — which is where the theme's own cycle goes after dark — is moved
+  // straight back to light.
+  (function () {
+    var root = document.documentElement;
+
+    function stored() {
+      try {
+        return localStorage.getItem('theme');
+      } catch (e) {
+        return null;
+      }
+    }
+
+    function apply(setting) {
+      if (typeof setThemeSetting === 'function') {
+        setThemeSetting(setting);
+        return;
+      }
+      try {
+        localStorage.setItem('theme', setting);
+      } catch (e) {}
+      root.setAttribute('data-theme-setting', setting);
+      root.setAttribute('data-theme', setting);
+    }
+
+    if (stored() !== 'light' && stored() !== 'dark') {
+      apply('light');
+    }
+
+    document.addEventListener('DOMContentLoaded', function () {
+      var button = document.getElementById('light-toggle');
+      if (!button) return;
+      // Runs after the theme's own click handler, so it only has to correct the
+      // one step of the cycle this site does not use.
+      button.addEventListener('click', function () {
+        if (stored() !== 'light' && stored() !== 'dark') apply('light');
+      });
+    });
+  })();
+</script>
