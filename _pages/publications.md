@@ -22,7 +22,7 @@ nav_order: 2
           <span class="kx-venue">[ NeurIPS ]</span>
           Independent Latents, Robust Neural Operators
         </p>
-        <p class="kx-pub-authors">Jay Phil Yoo, Kazuma Kobayashi, <strong>Jaewan Park</strong>, S. Puppala, Souvik Chakraborty, Syed Bahauddin Alam</p>
+        <p class="kx-pub-authors">Jay Phil Yoo, Kazuma Kobayashi, <strong>Jaewan Park</strong>, Sai Puppala, Souvik Chakraborty, Syed Bahauddin Alam</p>
       </li>
       <li class="kx-pub">
         <p class="kx-pub-title">
