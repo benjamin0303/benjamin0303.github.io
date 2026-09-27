@@ -19,6 +19,13 @@ nav_order: 2
     <ol class="kx-pubs">
       <li class="kx-pub">
         <p class="kx-pub-title">
+          <span class="kx-venue">[ NeurIPS ]</span>
+          Independent Latents, Robust Neural Operators
+        </p>
+        <p class="kx-pub-authors">Jay Phil Yoo, Kazuma Kobayashi, <strong>Jaewan Park</strong>, S. Puppala, Souvik Chakraborty, Syed Bahauddin Alam</p>
+      </li>
+      <li class="kx-pub">
+        <p class="kx-pub-title">
           <span class="kx-venue">[ SC26 &mdash; AI4S ]</span>
           Stabilizing Autoregressive PDE Foundation Model Rollouts with Event-Triggered Context Healing
         </p>
