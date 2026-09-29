@@ -36,7 +36,7 @@ nav_order: 2
       <li class="kx-pub">
         <p class="kx-pub-title">
           <span class="kx-venue">[ Nature Communications ]</span>
-          <a href="https://doi.org/10.1038/s41467-026-77463-7">Virtual Sensing to Enable Real-Time Monitoring of Inaccessible Locations &amp; Unmeasurable Parameters</a>
+          <a href="https://www.nature.com/articles/s41467-026-77463-7">Virtual Sensing to Enable Real-Time Monitoring of Inaccessible Locations &amp; Unmeasurable Parameters</a>
         </p>
         <p class="kx-pub-authors">Kazuma Kobayashi, Farid Ahmed, <strong>Jaewan Park</strong>, Subhankar Sarkar, Seid Koric, Souvik Chakraborty, Syed Bahauddin Alam</p>
       </li>
