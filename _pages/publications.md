@@ -27,7 +27,9 @@ nav_order: 2
       <li class="kx-pub">
         <p class="kx-pub-title">
           <span class="kx-venue">[ SC26 &mdash; AI4S ]</span>
-          Stabilizing Autoregressive PDE Foundation Model Rollouts with Event-Triggered Context Healing
+          <a href="https://arxiv.org/abs/2609.32321"
+            >Stabilizing Autoregressive PDE Foundation Model Rollouts with Event-Triggered Context Healing</a
+          >
         </p>
         <p class="kx-pub-authors"><strong>Jaewan Park</strong>, Jay Phil Yoo, Kazuma Kobayashi, Seid Koric, Syed Bahauddin Alam, Iwona Jasiuk, Souvik Chakraborty, Diab W. Abueidda</p>
       </li>
