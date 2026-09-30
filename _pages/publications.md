@@ -62,8 +62,10 @@ nav_order: 2
     <ol class="kx-pubs">
       <li class="kx-pub">
         <p class="kx-pub-title">
-          <span class="kx-venue">[ arXiv ]</span>
-          <a href="https://arxiv.org/abs/2507.06133">Bridging Sequential Deep Operator Network and Video Diffusion: Residual Refinement of Spatio-Temporal PDE Solutions</a>
+          <span class="kx-venue">[ npj Artificial Intelligence ]</span>
+          <a href="https://arxiv.org/abs/2507.06133"
+            >Learning What the Operator Misses: Residual Operator-Diffusion for Spatiotemporal PDE Solution Predictions</a
+          >
         </p>
         <p class="kx-pub-authors"><strong>Jaewan Park</strong>, Farid Ahmed, Kazuma Kobayashi, Seid Koric, Syed Bahauddin Alam, Iwona Jasiuk, Diab Abueidda</p>
       </li>
