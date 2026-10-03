@@ -97,8 +97,10 @@ body:has(.kx-shell) {
   // The reading bar is pinned under the fixed navbar the layout used to have.
   // With the navbar out of the flow it was left hanging in mid-air, so it goes
   // to the top edge of the window and gains enough height to read as a bar.
+  // progress-bar.js writes an inline `top: <navbar height>px` on load and on
+  // every resize, so the override has to outrank an inline style.
   progress#progress {
-    top: 0;
+    top: 0 !important;
     height: 3px;
   }
 
