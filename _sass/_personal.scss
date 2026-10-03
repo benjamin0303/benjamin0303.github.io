@@ -94,6 +94,14 @@ body:has(.kx-shell) {
   // and the container's own padding is zeroed against it instead.
   padding-top: 0 !important;
 
+  // The reading bar is pinned under the fixed navbar the layout used to have.
+  // With the navbar out of the flow it was left hanging in mid-air, so it goes
+  // to the top edge of the window and gains enough height to read as a bar.
+  progress#progress {
+    top: 0;
+    height: 3px;
+  }
+
   #navbar {
     // Absolute boxes shrink to their content, which parks the theme toggle on
     // the left; the offsets keep the bar full width so the toggle stays at the
