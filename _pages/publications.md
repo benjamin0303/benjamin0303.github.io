@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: Research
-description: Journal papers, preprints and manuscripts under review, newest first.
+description: Journal/Conference papers, preprints and manuscripts under review, newest first.
 nav: true
 nav_order: 2
 ---
@@ -12,7 +12,7 @@ nav_order: 2
 
   <div class="kx-col">
     <h1 class="kx-page-title">Research</h1>
-    <p class="kx-page-desc">Journal papers, preprints and manuscripts under review, newest first.</p>
+    <p class="kx-page-desc">Journal/Conference papers, preprints and manuscripts under review, newest first.</p>
 
   <section class="kx-section">
     <h2>Under review</h2>
