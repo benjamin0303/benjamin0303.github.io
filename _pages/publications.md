@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: Research
-description: Journal papers and preprints, newest first.
+description: Journal papers, preprints and manuscripts under review, newest first.
 nav: true
 nav_order: 2
 ---
@@ -12,7 +12,25 @@ nav_order: 2
 
   <div class="kx-col">
     <h1 class="kx-page-title">Research</h1>
-    <p class="kx-page-desc">Journal papers and preprints, newest first.</p>
+    <p class="kx-page-desc">Journal papers, preprints and manuscripts under review, newest first.</p>
+
+  <section class="kx-section">
+    <h2>Under review</h2>
+    <ol class="kx-pubs">
+      <li class="kx-pub">
+        <p class="kx-pub-title">Where Grounding Ends: Boundary-Aware Reasoning for Biological Perturbation Prediction</p>
+        <p class="kx-pub-authors">D. H. Kwark, S. Luo, <strong>Jaewan Park</strong>, K. Wang, A. Abdrabou, A. A. Khan, Volodymyr Kindratenko</p>
+      </li>
+      <li class="kx-pub">
+        <p class="kx-pub-title">A Systematic Study of Attention in Data-Driven and Physics-Informed Deep Operator Networks for Thermal and Fluid Transport</p>
+        <p class="kx-pub-authors">Amar Alem Koric, Qibang Liu, Samrendra Roy, <strong>Jaewan Park</strong>, Kazuma Kobayashi, Seid Koric, Diab W. Abueidda, Syed Bahauddin Alam</p>
+      </li>
+      <li class="kx-pub">
+        <p class="kx-pub-title">FlowMesh: Deterministic Generative Transport of Physical Fields on Unstructured Meshes</p>
+        <p class="kx-pub-authors">Siddharth Verma, <strong>Jaewan Park</strong>, Jay Phil Yoo, Kazuma Kobayashi, Souvik Chakraborty, Syed Bahauddin Alam</p>
+      </li>
+    </ol>
+  </section>
 
   <section class="kx-section">
     <h2>2026</h2>
